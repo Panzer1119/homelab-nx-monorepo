@@ -1,3 +1,20 @@
+# Custom
+
+*/.env
+.env
+
+/.angular/
+
+*/ormconfig.json
+ormconfig.json
+
+*/data-source.ts
+data-source.ts
+
+/swagger-spec.json
+
+.idea
+
 # See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
 # compiled output
@@ -41,9 +58,17 @@ Thumbs.db
 .nx/cache
 .nx/workspace-data
 .nx/migrate-runs
-.claude/worktrees
-.claude/settings.local.json
+.claude
+.cursor/rules/nx-rules.mdc
+.github/instructions/nx.instructions.md
 
 .angular
+.playwright-mcp
 
 __screenshots__/
+
+vite.config.*.timestamp*
+vitest.config.*.timestamp*
+
+.nx/polygraph
+.nx/self-healing

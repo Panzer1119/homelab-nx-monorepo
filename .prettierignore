@@ -1,3 +1,14 @@
+# Custom
+
+.git/
+
+*/.env
+.env
+
+/.angular/
+
+.idea
+
 # Add files here to ignore them from prettier formatting
 /dist
 /coverage
@@ -5,3 +16,5 @@
 /.nx/workspace-data
 package-lock.json
 .angular
+
+.nx/self-healing
